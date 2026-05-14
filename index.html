@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brilliant Mind School System Chak No 169/9-L</title>
+    <meta
+      name="description"
+      content="Brilliant Mind School System Chak No 169/9-L offers quality physical classes, admissions, activities, and a caring learning environment."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Brilliant Mind School System home">
+        <span class="brand-mark">BM</span>
+        <span>
+          <strong>Brilliant Mind School System</strong>
+          <small>Chak No 169/9-L</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav id="mainNav" class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#online-form">Online Form</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Admissions Open 2026</p>
+          <h1>Brilliant Mind School System</h1>
+          <p>
+            Chak No 169/9-L ka trusted school for quality physical classes,
+            confident learning, discipline, and strong character building.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#online-form">Fill Online Form</a>
+            <a class="button secondary" href="#contact">Contact Office</a>
+          </div>
+        </div>
+
+        <div class="hero-stats" aria-label="School highlights">
+          <div>
+            <strong>PG-10</strong>
+            <span>Physical Classes</span>
+          </div>
+          <div>
+            <strong>15+</strong>
+            <span>Experienced Teachers</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Focus on Discipline</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split-section">
+        <div>
+          <p class="eyebrow">About Us</p>
+          <h2>Quality education with care, discipline, and confidence.</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            Brilliant Mind School System provides a supportive environment where students
+            learn through regular classwork, practice, activities, and teacher guidance.
+          </p>
+          <p>
+            Our goal is to help every child improve in studies, manners, communication,
+            confidence, and daily learning habits.
+          </p>
+        </div>
+      </section>
+
+      <section id="academics" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Academics</p>
+          <h2>Programs for every learning stage</h2>
+        </div>
+
+        <div class="program-grid">
+          <article class="card">
+            <span>01</span>
+            <h3>Early Years</h3>
+            <p>Play Group, Nursery, and KG with basic English, Urdu, numbers, phonics, art, and manners.</p>
+          </article>
+          <article class="card">
+            <span>02</span>
+            <h3>Primary Classes</h3>
+            <p>Reading, writing, mathematics, science, social studies, classwork, homework, and revision.</p>
+          </article>
+          <article class="card">
+            <span>03</span>
+            <h3>Middle & Senior</h3>
+            <p>Concept-based teaching, tests, exam preparation, presentations, and responsible study routines.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="admissions" class="admission-band">
+        <div>
+          <p class="eyebrow">Admissions</p>
+          <h2>Admissions are open for physical classes.</h2>
+          <p>
+            Parents can visit the school office or fill the online form. Please keep child
+            B-form or birth certificate, two photos, previous result card, and parent CNIC copy ready.
+          </p>
+        </div>
+        <a class="button light" href="#online-form">Apply Online</a>
+      </section>
+
+      <section id="online-form" class="section admission-form-section">
+        <div>
+          <p class="eyebrow">Online Form</p>
+          <h2>Apply for physical classes</h2>
+          <p>
+            Ye form fill karne ke baad WhatsApp open hoga. Send press karte hi admission
+            details school office ko mil jayengi.
+          </p>
+        </div>
+
+        <form class="online-form" id="admissionForm">
+          <div class="form-grid">
+            <label>
+              Student Name
+              <input name="studentName" type="text" placeholder="Student ka naam" required />
+            </label>
+            <label>
+              Father / Guardian Name
+              <input name="guardianName" type="text" placeholder="Father ya guardian name" required />
+            </label>
+            <label>
+              Class for Admission
+              <select name="admissionClass" required>
+                <option value="">Select class</option>
+                <option>Play Group</option>
+                <option>Nursery</option>
+                <option>KG</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+                <option>Class 6</option>
+                <option>Class 7</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+              </select>
+            </label>
+            <label>
+              Phone Number
+              <input name="phone" type="tel" placeholder="03xx xxxxxxx" required />
+            </label>
+          </div>
+
+          <label>
+            Home Address
+            <input name="address" type="text" placeholder="Village / Chak / City" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Physical classes, timing, or transport ke bare mein message"></textarea>
+          </label>
+          <button type="submit">Send Admission Form on WhatsApp</button>
+          <p class="form-status" id="admissionStatus" role="status"></p>
+        </form>
+      </section>
+
+      <section id="facilities" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Facilities</p>
+          <h2>A clean, safe, and active learning campus</h2>
+        </div>
+
+        <div class="facility-grid">
+          <article>
+            <h3>Classrooms</h3>
+            <p>Clean rooms, proper seating, and a focused environment for daily lessons.</p>
+          </article>
+          <article>
+            <h3>Teachers</h3>
+            <p>Supportive teachers who guide students with classwork, homework, and revision.</p>
+          </article>
+          <article>
+            <h3>Activities</h3>
+            <p>Competitions, art, speeches, projects, and confidence-building activities.</p>
+          </article>
+          <article>
+            <h3>Discipline</h3>
+            <p>Respectful school culture with parent communication and student supervision.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="notice-section">
+        <div class="section-heading">
+          <p class="eyebrow">Updates</p>
+          <h2>Latest notices</h2>
+        </div>
+
+        <div class="notice-list">
+          <article>
+            <span>Now</span>
+            <p>Admissions are open for Play Group to Class 10 physical classes.</p>
+          </article>
+          <article>
+            <span>PTM</span>
+            <p>Parent-teacher meeting schedule will be shared by the school office.</p>
+          </article>
+          <article>
+            <span>Daily</span>
+            <p>Students should bring school diary, books, notebooks, and complete uniform.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Contact school office</h2>
+          <div class="contact-list">
+            <p><strong>Phone:</strong> 0326 1906169</p>
+            <p><strong>Email:</strong> info@brilliantmindschool.edu.pk</p>
+            <p><strong>Address:</strong> Brilliant Mind School System, Chak No 169/9-L, Pakistan</p>
+            <p><strong>Timing:</strong> Monday to Saturday, 8:00 AM - 2:00 PM</p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label>
+            Parent Name
+            <input name="parentName" type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            Phone Number
+            <input name="phone" type="tel" placeholder="03xx xxxxxxx" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Apna message likhein" required></textarea>
+          </label>
+          <button type="submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright <span id="year"></span> Brilliant Mind School System Chak No 169/9-L. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
